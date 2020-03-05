@@ -1,4 +1,4 @@
-package com.harsh.dataStructure.Likedlist;
+package com.harsh.dataStructure.linkedList;
 
 public class ListNode {
     private ListNode next;
@@ -24,4 +24,8 @@ public class ListNode {
         this.data = data;
     }
 
+    @Override
+    public String toString() {
+        return "["+getData()+","+getNext()+"]";
+    }
 }
